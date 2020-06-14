@@ -21,6 +21,7 @@ Phase Two is to maximise the effectiveness of CFRs who arrive early to the scene
 ![c) Architecture of proposed solution](https://user-images.githubusercontent.com/65325165/84586919-b88a2f00-ae4d-11ea-90a6-6a57b742db6c.jpg)
 
 # **Our Detailed Solution**
+[More detail is available here](Shyunyin/TeamName-SilverEmergencyResponse_SCDFXIBM/DESCRIPTION.md)
 
 # **Step-by-step Installation Details**
 ## **Part 1: Setting up your accelerometer containing motion sensor (hardware) and connecting it to Node-Red (software)**
