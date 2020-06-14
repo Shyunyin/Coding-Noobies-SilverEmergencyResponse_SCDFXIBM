@@ -33,7 +33,7 @@ Step 1. Connect your PC to Arduino Beetle Ble using a USB cable
 
 Step 2. Connect the accelerometer to Arduino using wires
 
-Step 3. Code Arduino with Python (“Accelerometer_containing_motion_sensor _and_timer.py” and “Accelerometer_with_timer” as stored in Github
+Step 3. Code Arduino with Python (“Accelerometer_containing_motion_sensor _and_timer.py” and “Accelerometer_with_timer” as stored in Python Codes folders)
 
 Step 4: Disconnect Arduino from PC
 
@@ -105,7 +105,7 @@ Step 3: Have either a heavy object of 50kg falling to the floor from a distance 
 Step 4: The accelerometer will calculate the root-mean-square speed of the falling object and the timer will detect the inactivity, communicating to Node-Red for it to be prompted. Following that it will activate Watson Assistant. Voice bot will be activated to ask questions to the victim about their condition.
 
 Step 5: Answer each question 
-For an interactive simulation, try out the code in “Chatbot_Simulation.py” (as stored in Github) using https://repl.it/languages/python3 
+For an interactive simulation, try out the code in “Chatbot_Simulation.py” (as stored in Python Codes) using https://repl.it/languages/python3 
 
 **(b)myResponder app**
 
