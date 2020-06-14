@@ -23,7 +23,7 @@ Phase Two is to maximise the effectiveness of CFRs who arrive early to the scene
 # **Our Detailed Solution**
 
 # **Step-by-step Installation Details**
-**Part 1: Setting up your accelerometer containing motion sensor (hardware) and connecting it to Node-Red (software)**
+## **Part 1: Setting up your accelerometer containing motion sensor (hardware) and connecting it to Node-Red (software)**
 
 Step 1. Connect your PC to Arduino Beetle Ble using a USB cable
 
@@ -39,7 +39,7 @@ Step 6: Move the accelerometer to obtain input from it
 
 Step 7: Do steps 1-6 for 4 more identical accelerometers
 
-**Part 2: Setting up a Watson Assistant**
+## **Part 2: Setting up a Watson Assistant**
 
 Step 1. From the IBM Cloud catalog, provision an instance of Watson Assistant.
 
@@ -67,7 +67,7 @@ Step 12. Go back to your dialog skill and click on the ‘Preview Link’ button
 
 Step 13. Type in ‘Thump’ to mimic the sound of a falling elderly and to trigger the motion sensor, which would activate the [name of our device]. Continue to answer the questions that the [name] asks to experience how it works! 
 
-**Part 3: Setting up node-red chatbot**
+## **Part 3: Setting up node-red chatbot**
 
 Step 1. Node-red must be installed on IBM cloud so that data can be accessed by SCDF and CFR
 
@@ -89,7 +89,7 @@ Step 3: Create a flow as such:
 , where the message payload will be stored in IBM cloud in an SCDF database for easy access
 *Ensure that the same flow is installed in the motion sensor and the myResponder app in CFR’s phones
 
-**Part 4: How to run a demo**
+## **Part 4: How to run a demo**
 **(a)Voice bot**
 
 Step 1: Configure the motion sensors using parts 1-3. 
