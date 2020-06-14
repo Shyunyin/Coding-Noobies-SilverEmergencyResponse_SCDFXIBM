@@ -19,8 +19,7 @@ There are two phases to our solution. Phase One encompasses data collection via 
 Phase Two is to maximise the effectiveness of CFRs who arrive early to the scene before SCDF personnel through Watson Translation. This is to make communication between the injured senior citizen. Clear communication will allow the CFR to make a better assessment of the situation and provide the necessary aid accordingly. This can significantly impact the outcome of the fall for the elderly. Furthermore, the communication between the CFR and the elderly can be transcribed and sent to SCDF personnel who are on the way so they can remain updated. 
 
 # **Our Video Pitch**
-![image](https://user-images.githubusercontent.com/65325165/84589741-44f31c80-ae63-11ea-8130-fbc8f3a5fa6e.png)(https://youtu.be/Gp1WAueboIE)
-[![Food King](http://img.youtube.com/vi/vOgCOoy_Bx0&feature=youtu.b/0.jpg)](http://www.youtube.com/watch?v=vOgCOoy_Bx0&feature=youtu.b)
+
 
 
 # **Architecture of our Proposed Solution**
