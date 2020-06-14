@@ -22,3 +22,41 @@ Phase Two is to maximise the effectiveness of CFRs who arrive early to the scene
 
 # **Our Detailed Solution**
 
+# **Step-by-step Installation Details**
+**Part 1: Setting up your accelerometer containing motion sensor (hardware) and connecting it to Node-Red (software)**
+Step 1. Connect your PC to Arduino Beetle Ble using a USB cable
+Step 2. Connect the accelerometer to Arduino using wires
+Step 3. Code Arduino with Python (“Accelerometer_containing_motion_sensor _and_timer.py” and “Accelerometer_with_timer” as stored in Github)
+Step 4: Disconnect Arduino from PC
+Step 5: Using the built-in bluetooth function in Arduino, connect it to a device that node-red is installed in 
+Step 6: Move the accelerometer to obtain input from it  
+Step 7: Do steps 1-6 for 4 more identical accelerometers
+
+**Part 2: Setting up a Watson Assistant**
+Step 1. From the IBM Cloud catalog, provision an instance of Watson Assistant.
+Step 2. Launch the Watson Assistant service.
+Step 3. Create assistant
+Step 4. Name the Watson Assistant instance [Silver Emergency Response]
+Step 5. Click ‘Add Dialog’ skill to add this to your assistant.
+Step 6. Click Import skill > Choose JSON file and import the skill-silveremergencyresponse.json file
+Step 7. Go back to the All Assistants page to open ‘Settings’.
+Step 8. On the Settings tab, click API Details on the left and make a note of the Assistant ID and Api Key for future use.
+Step 9. Go back to the ‘All Assistants’ page and click on the ‘Skills link’.
+Step 10. On the ‘Skill page’, open ‘View API Details’.
+Step 11. On the ‘Skill Details’ page, make note of the Skill ID for future use.
+Step 12. Go back to your dialog skill and click on the ‘Preview Link’ button on the side to get a link to test and verify your assistant.
+Step 13. Type in ‘Thump’ to mimic the sound of a falling elderly and to trigger the motion sensor, which would activate the [name of our device]. Continue to answer the questions that the [name] asks to experience how it works! 
+
+**Part 3: Setting up node-red chatbot**
+Step 1. Node-red must be installed on IBM cloud so that data can be accessed by SCDF and CFR
+Step 2. Install the following dependencies into the flow:
+Node-red-node-ui-microphone
+Node-red-dashboard
+Node-red-node-watson
+Node-contrib-play-audio
+This can be done by using IBM cloud toolchain and the git repository in IBM cloud to add the following packages to the package.json file.
+"node-red-node-ui-microphone":"0.x",
+"node-red-dashboard":"2.x",
+"Node-red-contrib-play-audio":"2.x",
+Step 3: Create a flow as such:
+
