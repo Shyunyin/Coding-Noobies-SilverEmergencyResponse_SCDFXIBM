@@ -3,12 +3,13 @@ We are Team coding n00bies! We are a group of friends who have known one another
 
 # **Content**
 1. Short description of our solution and our idea
-2. Architecture of our proposed solution
-3. Our detailed solution
-4. Step-by-step installation instructions
-5. Technologies used in building the solution
+2. Our Video Pitch
+3. Architecture of our proposed solution
+4. Our Detailed Dolution
+5. Step-by-step Installation Instructions
+6. Technologies used in Building the Solution
 
-# **Short description of our solution and our idea**
+# **Short description of our Solution and our Idea**
 According to the Health Promotion Board Singapore, about one-third of elderly Singaporeans aged 60 and above have recurring falls. Falling down at an old age can be detrimental as older people have more fragile bones, are more likely to have complications from surgeries and have problems recovering. 
 
 Our team has identified elderly who are living alone as a particularly vulnerable group amongst the elderly. This is because the elderly in this group do not have family members or relatives living with them who can provide help in the case of a fall or alert emergency medical services. Furthermore, we identified that bathrooms are commonplace for falls due to the slippery surfaces. Therefore, our team’s solution aims to detect such falls, alert the Singapore Civil Defence Force (SCDF) and Community First Responders (CFRs) for the elderly and collect data that is useful for the personnel arriving at the scene. 
@@ -16,6 +17,8 @@ Our team has identified elderly who are living alone as a particularly vulnerabl
 There are two phases to our solution. Phase One encompasses data collection via motion sensors to detect a fall so that SCDF is alerted as soon as it occurs. This is of utmost importance as the elderly living alone do not have anyone else who can alert emergency medical services and may be immobilised after the fall.  
 
 Phase Two is to maximise the effectiveness of CFRs who arrive early to the scene before SCDF personnel through Watson Translation. This is to make communication between the injured senior citizen. Clear communication will allow the CFR to make a better assessment of the situation and provide the necessary aid accordingly. This can significantly impact the outcome of the fall for the elderly. Furthermore, the communication between the CFR and the elderly can be transcribed and sent to SCDF personnel who are on the way so they can remain updated. 
+
+# **Our Video Pitch**
 
 # **Architecture of our Proposed Solution**
 ![c) Architecture of proposed solution](https://user-images.githubusercontent.com/65325165/84586919-b88a2f00-ae4d-11ea-90a6-6a57b742db6c.jpg)
