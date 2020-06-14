@@ -117,11 +117,11 @@ Step 3: Press the start button before you start the conversation with the person
 
 
 # **Technologies Used in Building the Solution**
-IBM cloud object storage    - Location for mass data storage 
-IBM watson speech-to-text - Platform to deal with verbal input 
-IBM watson text-to-speech - Platform to deal with verbal output 
-IBM watson translation       - Medium for smooth communication
-IBM cloud Node-RED         - Platform for chatbot 
+- IBM cloud object storage    - Location for mass data storage 
+- IBM watson speech-to-text - Platform to deal with verbal input 
+- IBM watson text-to-speech - Platform to deal with verbal output 
+- IBM watson translation       - Medium for smooth communication
+- IBM cloud Node-RED         - Platform for chatbot 
 
 
 
