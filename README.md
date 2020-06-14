@@ -89,7 +89,7 @@ This can be done by using IBM cloud toolchain and the git repository in IBM clou
 "Node-red-contrib-play-audio":"2.x",
 
 Step 3: Create a flow as such:
-![image](https://user-images.githubusercontent.com/65325165/84587222-f720e900-ae4f-11ea-8950-46681512d4bb.png)
+![image](https://user-images.githubusercontent.com/65325165/84588211-fb510480-ae57-11ea-8077-46a52b2b9062.png)
 , where the message payload will be stored in IBM cloud in an SCDF database for easy access
 *Ensure that the same flow is installed in the motion sensor and the myResponder app in CFR’s phones
 
