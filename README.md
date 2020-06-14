@@ -26,10 +26,8 @@ Phase Two is to maximise the effectiveness of CFRs who arrive early to the scene
 **Part 1: Setting up your accelerometer containing motion sensor (hardware) and connecting it to Node-Red (software)**
 
 Step 1. Connect your PC to Arduino Beetle Ble using a USB cable
-
 Step 2. Connect the accelerometer to Arduino using wires
-
-Step 3. Code Arduino with Python (“Accelerometer_containing_motion_sensor _and_timer.py” and “Accelerometer_with_timer” as stored in Github)
+Step 3. Code Arduino with Python (“Accelerometer_containing_motion_sensor _and_timer.py” and “Accelerometer_with_timer” as stored in Github
 Step 4: Disconnect Arduino from PC
 Step 5: Using the built-in bluetooth function in Arduino, connect it to a device that node-red is installed in 
 Step 6: Move the accelerometer to obtain input from it  
