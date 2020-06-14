@@ -1,1 +1,8 @@
-**Phase One: Detection of falls and alerting SCDF**
+# **Phase One: Detection of falls and alerting SCDF**
+Phase One requires the use of motion sensors. The motion sensors will be installed on the four walls and the ceiling of the bathroom. They track movement in the bathroom and will be able to distinguish between normal activity and an actual fall by continuously measuring the speed of movements in all directions. The motion sensor can also determine the time at which a person is motionless and the position they are in (i.e. on the floor). 
+
+When a fall is detected, a voice bot will be activated. This is made possible because the motion sensors are connected to Arduino using wires. Arduino is connected via Bluetooth to a wifi-enabled device (e.g. a mobile device), located in the elderly’s home, which can open a voice-enabled Node-RED website with a chatbot. 
+
+The voice bot will be integrated with Watson Speech to Text and Watson Translation functions. The voice bot will communicate with the injured elderly by asking questions about their condition. Answers from the elderly will be recorded, transcribed and sent to SCDF. SCDF can assess the transcription as it arrives. This information will be valuable to SCDF personnel as it helps them analyse and understand the situation before arriving at the scene. 
+
+Furthermore, using the answers from the elderly, the voice bot will assess the level of severity of the fall. The level of severity can be categorised as follows: false alarm, mild, intermediate, severe. Figure 1 and 2 below show how the elderly’s condition will be categorised. This assessment of the degree of severity is also sent to SCDF to determine how much manpower is to be deployed and whether it is a false alarm. 
