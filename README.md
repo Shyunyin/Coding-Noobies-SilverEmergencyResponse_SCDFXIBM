@@ -51,11 +51,11 @@ Step 2. Launch the Watson Assistant service.
 
 Step 3. Create assistant
 
-Step 4. Name the Watson Assistant instance [Silver Emergency Response]
+Step 4. Name the Watson Assistant instance Silver Emergency Response
 
 Step 5. Click ‘Add Dialog’ skill to add this to your assistant.
 
-Step 6. Click Import skill > Choose JSON file and import the skill-silveremergencyresponse.json file
+Step 6. Click Import skill > Choose JSON file and import the skill-Silver_Emergency_Response.json file
 
 Step 7. Go back to the All Assistants page to open ‘Settings’.
 
@@ -69,7 +69,7 @@ Step 11. On the ‘Skill Details’ page, make note of the Skill ID for future u
 
 Step 12. Go back to your dialog skill and click on the ‘Preview Link’ button on the side to get a link to test and verify your assistant.
 
-Step 13. Type in ‘Thump’ to mimic the sound of a falling elderly and to trigger the motion sensor, which would activate the [name of our device]. Continue to answer the questions that the [name] asks to experience how it works! 
+Step 13. Type in ‘Thump’ to mimic the sound of a falling elderly and to trigger the motion sensor, which would activate the Silver Emergency Response. Continue to answer the questions that the Silver Emergency Response asks to experience how it works! 
 
 ## **Part 3: Setting up node-red chatbot**
 
