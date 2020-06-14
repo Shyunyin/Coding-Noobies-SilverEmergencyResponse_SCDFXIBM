@@ -6,7 +6,7 @@ We are Team coding n00bies! We are a group of friends who have known one another
 2. Architecture of our proposed solution
 3. Our detailed solution
 4. Step-by-step installation instructions
-5. Technologies used to build our solution
+5. Technologies used in building the solution
 
 # **Short description of our solution and our idea**
 According to the Health Promotion Board Singapore, about one-third of elderly Singaporeans aged 60 and above have recurring falls. Falling down at an old age can be detrimental as older people have more fragile bones, are more likely to have complications from surgeries and have problems recovering. 
@@ -59,4 +59,32 @@ This can be done by using IBM cloud toolchain and the git repository in IBM clou
 "node-red-dashboard":"2.x",
 "Node-red-contrib-play-audio":"2.x",
 Step 3: Create a flow as such:
+![image](https://user-images.githubusercontent.com/65325165/84587222-f720e900-ae4f-11ea-8950-46681512d4bb.png)
+, where the message payload will be stored in IBM cloud in an SCDF database for easy access
+*Ensure that the same flow is installed in the motion sensor and the myResponder app in CFR’s phones
+
+**Part 4: How to run a demo**
+**(a)Voice bot**
+Step 1: Configure the motion sensors using parts 1-3. 
+Step 2: Set up the motion sensors which will be placed at all four walls of the bathroom (which is assumed to be a 4-wall room) and one on the ceiling.
+Step 3: Have either a heavy object of 50kg falling to the floor from a distance or lie on the floor not moving for 30 minutes
+Step 4: The accelerometer will calculate the root-mean-square speed of the falling object and the timer will detect the inactivity, communicating to Node-Red for it to be prompted. Following that it will activate Watson Assistant. Voice bot will be activated to ask questions to the victim about their condition.
+Step 4: Answer each question 
+For an interactive simulation, try out the code in “Chatbot_Simulation.py” (as stored in Github) using https://repl.it/languages/python3 
+
+**(b)myResponder app**
+Step 1: Open myResponder app after downloading on your phone
+Step 2: Go to Node-Red chatbot in the app
+Step 3: Press the start button before you start the conversation with the person playing as the victim. Try having a conversation using different languages to make use of the Watson translation function.
+
+
+# **Technologies Used in Building the Solution**
+IBM cloud object storage    - Location for mass data storage 
+IBM watson speech-to-text - Platform to deal with verbal input 
+IBM watson text-to-speech - Platform to deal with verbal output 
+IBM watson translation       - Medium for smooth communication
+IBM cloud Node-RED         - Platform for chatbot 
+
+
+
 
