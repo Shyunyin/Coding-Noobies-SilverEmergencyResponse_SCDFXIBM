@@ -31,9 +31,7 @@ The voice bot will be integrated with Watson Speech to Text and Watson Translati
 
 Furthermore, using the answers from the elderly, the voice bot will assess the level of severity of the fall. The level of severity can be categorised as follows: false alarm, mild, intermediate, severe. Figure 1 and 2 below show how the elderly’s condition will be categorised. This assessment of the degree of severity is also sent to SCDF to determine how much manpower is to be deployed and whether it is a false alarm. 
 ![image](https://user-images.githubusercontent.com/65325165/84587103-ee7be300-ae4e-11ea-9cd5-c9daaa0842d1.png)
-
-
-
+![image](https://user-images.githubusercontent.com/65325165/84587135-41559a80-ae4f-11ea-93d9-6129de3ae3b9.png)
 
 ## **Phase 2: Maximising the effectiveness of Community First Responders (CFRs)** 
 
