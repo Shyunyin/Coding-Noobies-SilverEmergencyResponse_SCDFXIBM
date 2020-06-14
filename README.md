@@ -68,16 +68,22 @@ Step 12. Go back to your dialog skill and click on the ‘Preview Link’ button
 Step 13. Type in ‘Thump’ to mimic the sound of a falling elderly and to trigger the motion sensor, which would activate the [name of our device]. Continue to answer the questions that the [name] asks to experience how it works! 
 
 **Part 3: Setting up node-red chatbot**
+
 Step 1. Node-red must be installed on IBM cloud so that data can be accessed by SCDF and CFR
+
 Step 2. Install the following dependencies into the flow:
+
 Node-red-node-ui-microphone
 Node-red-dashboard
 Node-red-node-watson
 Node-contrib-play-audio
+
 This can be done by using IBM cloud toolchain and the git repository in IBM cloud to add the following packages to the package.json file.
+
 "node-red-node-ui-microphone":"0.x",
 "node-red-dashboard":"2.x",
 "Node-red-contrib-play-audio":"2.x",
+
 Step 3: Create a flow as such:
 ![image](https://user-images.githubusercontent.com/65325165/84587222-f720e900-ae4f-11ea-8950-46681512d4bb.png)
 , where the message payload will be stored in IBM cloud in an SCDF database for easy access
@@ -85,16 +91,24 @@ Step 3: Create a flow as such:
 
 **Part 4: How to run a demo**
 **(a)Voice bot**
+
 Step 1: Configure the motion sensors using parts 1-3. 
+
 Step 2: Set up the motion sensors which will be placed at all four walls of the bathroom (which is assumed to be a 4-wall room) and one on the ceiling.
+
 Step 3: Have either a heavy object of 50kg falling to the floor from a distance or lie on the floor not moving for 30 minutes
+
 Step 4: The accelerometer will calculate the root-mean-square speed of the falling object and the timer will detect the inactivity, communicating to Node-Red for it to be prompted. Following that it will activate Watson Assistant. Voice bot will be activated to ask questions to the victim about their condition.
-Step 4: Answer each question 
+
+Step 5: Answer each question 
 For an interactive simulation, try out the code in “Chatbot_Simulation.py” (as stored in Github) using https://repl.it/languages/python3 
 
 **(b)myResponder app**
+
 Step 1: Open myResponder app after downloading on your phone
+
 Step 2: Go to Node-Red chatbot in the app
+
 Step 3: Press the start button before you start the conversation with the person playing as the victim. Try having a conversation using different languages to make use of the Watson translation function.
 
 
