@@ -20,7 +20,7 @@ Phase Two is to maximise the effectiveness of CFRs who arrive early to the scene
 # **Architecture of our proposed solution**
 
 # **Our detailed solution**
-Phase One: Detection of falls and alerting SCDF  
+## **Phase One: Detection of falls and alerting SCDF**
 
 Phase One requires the use of motion sensors. The motion sensors will be installed on the four walls and the ceiling of the bathroom. They track movement in the bathroom and will be able to distinguish between normal activity and an actual fall by continuously measuring the speed of movements in all directions. The motion sensor can also determine the time at which a person is motionless and the position they are in (i.e. on the floor). 
 
@@ -35,66 +35,13 @@ Furthermore, using the answers from the elderly, the voice bot will assess the l
 Fig. 1
 
 
-Questions
-Responses that will indicate 
-Code Red (Severe)
-Responses that will indicate 
-Code Orange (Intermediate)
-Responses that will indicate 
-Code Yellow (Mild)
-Responses that will indicate 
-Code Zero (No action required)
-“Can you make a sound to indicate you are conscious?”
-
-
-
-No response
-Unintelligible sounds 
-“Yes”, “ya”, “I can talk”, “I am conscious” 
-“Yes”, “ya”, “I can talk”, “I am conscious” 
-“Have you fallen down?”
-No response
-“Yes”, “Ya”
-“Yes”, “Ya”
-“No”, “I am okay”, 
-“I am fine” 
-“Are you bleeding?” 
-No response
-“Yes”, “bleeding”, “blood”
-“No”
--
-“Can you tell me where you are feeling pain?”
-No response
-Body parts such as the leg, head, arm, back
-Any body part excluding the head, hip, and back
--
-“Do you remember how you fell?”
-No response
-“No”, “cannot”, “I don’t know” 
-“Yes”, “Ya”, “slipped”, “slippery floor”, “tripped”, “water”, “wet”
--
-“Are you able to move your body?”
-No response
-“No”, “cannot”
-“Can”, “a bit” 
--
-“What is the year currently?”
-No response
-“No” or an incorrect response 
-Correctly identifies the year
--
-“Are you on any medication that makes you drowsy now?”
-No response
-“Yes”, “I think so”, “I don’t know”, “I can’t remember”
-“No”
--
 
 Fig. 2 
 
 
 
 
-Phase 2: Maximising the effectiveness of Community First Responders (CFRs) 
+## **Phase 2: Maximising the effectiveness of Community First Responders (CFRs)** 
 
 CFRs can play a key role in the rescue process. After it is determined that the elderly have fallen, CFRs within 400 metres of the injured elderly’s location will be alerted via the myResponder app. CFRs will only be alerted if the level of severity is severe, intermediate or mild. CFRs will not be alerted if the voice bot has deemed the situation a false alarm. 
 
@@ -102,7 +49,7 @@ If CFRs are able to enter the house and attend to the elderly, they can make use
 
 This is to make communication between the injured elderly and the CFR as smooth as possible given a language barrier and that the senior is conscious. Clear and accurate communication will allow the CFR to make a better assessment of the situation and provide the necessary aid accordingly during the first critical moments. For example, the senior citizen can describe where they are experiencing pain as well as the type of pain so the CFR can decide the appropriate aid to provide. This can significantly impact the outcome of the fall for the elderly. Furthermore, the communication between the CFR and the elderly can be transcribed and sent to SCDF personnel who are on the way. This would allow them to arrive at the scene fully updated and armed with as much information as possible. 
 
-Use of Watson Speech to Text and Watson Translation functions in the chatbot and myResponder app
+## **Use of Watson Speech to Text and Watson Translation functions in the chatbot and myResponder app**
 
 Our team has decided to use two IBM functions ― Watson Translation and Watson Speech to Text. 
 
