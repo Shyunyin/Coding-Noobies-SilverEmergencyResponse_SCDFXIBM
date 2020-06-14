@@ -30,14 +30,7 @@ When a fall is detected, a voice bot will be activated. This is made possible be
 The voice bot will be integrated with Watson Speech to Text and Watson Translation functions. The voice bot will communicate with the injured elderly by asking questions about their condition. Answers from the elderly will be recorded, transcribed and sent to SCDF. SCDF can assess the transcription as it arrives. This information will be valuable to SCDF personnel as it helps them analyse and understand the situation before arriving at the scene. 
 
 Furthermore, using the answers from the elderly, the voice bot will assess the level of severity of the fall. The level of severity can be categorised as follows: false alarm, mild, intermediate, severe. Figure 1 and 2 below show how the elderly’s condition will be categorised. This assessment of the degree of severity is also sent to SCDF to determine how much manpower is to be deployed and whether it is a false alarm. 
-
-
-
-Fig. 1
-
-
-
-Fig. 2 
+![image](https://user-images.githubusercontent.com/65325165/84587103-ee7be300-ae4e-11ea-9cd5-c9daaa0842d1.png)
 
 
 
